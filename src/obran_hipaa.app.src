@@ -1,0 +1,18 @@
+{application, obran_hipaa,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {obran_hipaa_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    erlcloud,
+    crypto,
+    ssl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
